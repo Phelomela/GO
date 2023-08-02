@@ -13,5 +13,5 @@ func main() {
 	)
 	a := strconv.Itoa(z)
 	b, _ := strconv.Atoi(number)
-	fmt.Println(reflect.TypeOf(a), reflect.TypeOf(b))
+	fmt.Println("104 is", reflect.TypeOf(a), ", 35 is", reflect.TypeOf(b))
 }
